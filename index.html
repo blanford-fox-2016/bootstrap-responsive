@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Tamvan Shopping Cart</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="navbar-brand">Oregairu</a>
+        </div>
+        <div id="bs-example-navbar-collapse-2" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Home</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Characters <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Yukkinon</a></li>
+                <li><a href="#">Yui</a></li>
+                <li><a href="#">Hachiman</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="http://orig10.deviantart.net/b386/f/2016/145/4/0/yukino_yukinoshita___oregairu_minimalist_by_blanche_des-da3tqms.png" alt="...">
+          <div class="carousel-caption">
+            ...
+          </div>
+        </div>
+        <div class="item">
+          <img src="http://orig09.deviantart.net/c7af/f/2016/165/0/4/yui_yuigahama__oregairu__minimalist_wallpaper_by_greenmapple17-d8xv9bi.png" alt="...">
+          <div class="carousel-caption">
+            ...
+          </div>
+        </div>
+        <div class="item">
+          <img src="http://orig09.deviantart.net/d65a/f/2016/165/5/0/hikigaya_hachiman__oregairu__minimalist_wallpaper_by_greenmapple17-d95slxv.png" alt="...">
+          <div class="carousel-caption">
+            ...
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <div class="row">
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="col">Oregairu</h1>
+          <div class="col-md-3">
+            <img src="http://2.bp.blogspot.com/-lkZaAEuk-sU/UmQdbWZGyNI/AAAAAAAAwhE/p1fOalHg3XI/s0/Sube+tu+render+%2528si+lo+tienes+en+-Oregairu+-+Logo+v1.png" alt="oregairu-logo" class="img-responsive"/>
+          </div>
+          <div class="col-md-9">
+            <p>My Youth Romantic Comedy Is Wrong, As I Expected (Japanese: やはり俺の青春ラブコメはまちがっている。 Hepburn: Yahari Ore no Seishun Rabu Kome wa Machigatteiru.?), abbreviated as OreGairu (俺ガイル?) and Hamachi (はまち?), and also known as My Teen Romantic Comedy SNAFU, is a Japanese light novel series written by Wataru Watari and illustrated by Ponkan8.</p>
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+              Click Here!
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">It Works!</h4>
+                  </div>
+                  <div class="modal-body">
+                    <img src="http://weknowmemes.com/wp-content/uploads/2012/09/my-code-doesnt-work-i-have-no-idea-why.jpg" alt="I have no idea what I'm doing"  class="img-responsive"/>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <a href="#" class="thumbnail">
+            <img src="http://images6.fanpop.com/image/photos/35700000/Chibi-yukino-yukinoshita-35771658-572-674.png" alt="Yukinoshita Yukino">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#" class="thumbnail">
+            <img src="https://40.media.tumblr.com/978c1b4525c93601d9f4d20623b6e2f4/tumblr_o3lj7fzfUn1qg53joo8_1280.jpg" alt="Yuigahama Yui">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#" class="thumbnail">
+            <img src="http://3.bp.blogspot.com/-shVP8aW0RKM/UnWRURBfoDI/AAAAAAAALBk/1Qs_dq5dMBQ/s1600/chibi+Yahari_07.jpg" alt="Hikigaya Hachiman">
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#yuki" data-toggle="tab" aria-expanded="true">Yukinon</a></li>
+          <li class=""><a href="#yui" data-toggle="tab" aria-expanded="false">Yui</a></li>
+          <li class=""><a href="#hachiman" data-toggle="tab" aria-expanded="false">Hachiman</a></li>
+        </ul>
+        <div id="myTabContent" class="tab-content">
+          <div class="tab-pane fade active in" id="yuki">
+            <h3>Yukinoshita Yukino</h3>
+            <p>Yukino Yukinoshita is the student of Class-2J of Sobu High and also the President of the Service Club. She was the lone member until Hachiman Hikigaya joined her.</p>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#yukiquote" aria-expanded="false" aria-controls="yukiquote">
+              Show Quotes
+            </button>
+            <div class="collapse" id="yukiquote">
+              <blockquote>
+                "People who don't work hard don't have the right to be envious of the people with talent. People fail because they don't understand the hard work necessary to be successful." Yukino to Yui
+              </blockquote>
+              <blockquote>
+                "I think it's important to challenge yourself. It helps make you a better person." Yukino to Hachiman
+              </blockquote>
+              <blockquote>
+                "Must I spell it out? That if you’re only capable of inhaling air and spitting it back out, then that air con over there is superior to you? In other words, I’m allowing you to pretend to be my boyfriend, just for today." Yukino to Hachiman
+              </blockquote>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="yui">
+            <h3>Yuigahama Yui</h3>
+            <p>Yui Yuigahama is a student in class 2F of Sōbu High School and the first official customer of the Service Club, whom later becomes the third member of the club.</p>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#yuiquote" aria-expanded="false" aria-controls="yuiquote">
+              Show Quotes
+            </button>
+            <div class="collapse" id="yuiquote">
+              <blockquote>
+                (Greeting) "Yahallo!"
+              </blockquote>
+              <blockquote>
+                (To Hachiman) "How can you be so smart and yet not understand something simple? I never wanted to see something like that."
+              </blockquote>
+              <blockquote>
+                "If I win, I'll take everything. It's probably unfair. But it's the only thing I can think of. I want things to always remain this way."
+              </blockquote>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="hachiman">
+            <h3>Hikigaya Hachiman</h3>
+            <p>Hachiman Hikigaya is the main protagonist of Yahari Ore no Seishun Love Come wa Machigatteiru. He is the viewpoint character of the series. He is a student in class 2F of Sōbu High School and the second member of the Service Club.</p>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#hachiquote" aria-expanded="false" aria-controls="hachiquote">
+              Show Quotes
+            </button>
+            <div class="collapse" id="hachiquote">
+              <blockquote>
+                "People often say, "If I change myself, I'll change the world." That's a load of crap. People's judgment of others create a stereotype, and that's the impression that lasts. Loners are forced to do things alone. If you try to stand out by working hard at something, you just become a target for attack. It's the rotten rule of the children's kingdom."
+              </blockquote>
+              <blockquote>
+                "Everyone is a slave to their past. No matter how much you wish to move forward, the events of yester year will bear down on you like the light of the stars as soon as you glance up. Unable to laugh or to banish your past, you carry it ceaselessly in a corner of your heart, waiting for it to resurrect at an inopportune moment."
+              </blockquote>
+              <blockquote>
+                "I hate nice girls. Just by exchanging greetings with them will get them on your mind. Start texting each other, and your heart will be set a flutter. If they call you, you're done for. Enjoy staring at your logs and grinning like a fool. However, I won't be fooled again. That's what your kind calls kindness. If you are nice to me, you're also nice to others. I always end up nearly forgetting that. Reality is cruel, so I'm sure lies are a form of kindness. Thus, I say kindness itself is also a lie. I always ended up with these expectations. And I always ended up with these misunderstandings. And before I knew it, I stopped hoping. A highly-trained loner is once bitten, twice shy. As a veteran on this battlefield of life, I've gotten used to losing. That's why I will always… hate nice girls."
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="tamvan-footer">
+      <div class="container text-center">
+        <h3>TamaTamvan</h3>
+        <p>
+          Simple Bootstrap by TamaTamvan  &copy; 2016
+        </p>
+      </div>
+    </footer>
+
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- <script src="javascripts/bs.js"></script> -->
+</html>
